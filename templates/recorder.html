@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Web 錄音程式</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>WAV錄音程式</h1>
+        <p id = "status">點擊以開始錄音</p>
+        <div>
+            <button id="startBtn">開始錄音</button>
+            <button id="pauseBtn" disabled>暫停錄音</button>
+            <button id="stopBtn" disabled>停止錄音</button>
+        </div>
+        <div>
+            <button id="clearBtn" disabled>清除錄音</button>
+        </div>
+        <audio id="audioPlayer" controls></audio>
+        <a id="download" style="display: none;">下載錄音</a>
+    </div>
+    <script src="{{url_for('static', filename = 'recorder.js')}}"></script>
+    <footer style="text-align: center;">by Torry</footer>
+</body>
+</html>
