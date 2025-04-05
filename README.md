@@ -31,12 +31,12 @@ export PATH=$PATH:gunicorn安裝位置
 ```
 docker build -t web-recorder .
 ```
+- Or pull image from my docker hub
+```
+docker pull s110062516/web-recorder:v1.0
+```
 - 執行container
 ```
 docker run -d -p 8000:8000 --name WebRecorder web-recorder
-```
-## Pull from my docker hub
-```
-docker pull s110062516/web-recorder:v1.0
 ```
 ##
