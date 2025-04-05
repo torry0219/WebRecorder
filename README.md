@@ -35,3 +35,8 @@ docker build -t web-recorder .
 ```
 docker run -d -p 8000:8000 --name WebRecorder web-recorder
 ```
+## Pull from my docker hub
+```
+docker pull s110062516/web-recorder:v1.0
+```
+##
