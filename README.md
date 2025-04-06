@@ -5,7 +5,7 @@ A simple web-based WAV recorder
 - 前端使用HTML+Javascript
 - 後端使用Flask處理wav轉檔
 - WSGI server使用Gunicorn
-- 可透過如Nginx幫助部署 (Ex. 部署在AWS EC2上)
+- 可透過如Nginx反向代理
 - 可搭配ngrok幫助測試 (JS錄音的getUserMedia需HTTPS存取麥克風權限)
 ## 安裝&執行
 - Python package (python 3.10)
